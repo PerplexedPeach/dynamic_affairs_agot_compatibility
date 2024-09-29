@@ -7,6 +7,65 @@
 		template = no_headgear
 	}
 
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = headgear
+		template = agot_crowns
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = headgear
+		template = agot_qolab
+	}
+
+	#AGOT Added
+	add_accessory_modifiers = {
+		gene = headgear
+		template = agot_most_headgears
+	}
+
+	## CE1 ##
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_common
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_era3_common
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_cloak_hoods
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = cloak_hoods
+		template = fp4_western_cloak_hoods
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_low_nobility
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_royalty
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+
 	## Couture of the Capets ##
 	
 	add_accessory_modifiers = {
@@ -142,7 +201,8 @@
 			has_fp3_dlc_trigger = yes
 		}
 	}
-
+	
+	## SP1 ##
 	add_accessory_modifiers = {
 		gene = headgear
 		template = reward_western_royalty
@@ -151,7 +211,7 @@
 		}
 	}
 
-	## Elegance of the Empire ##
+	## SP2 Elegance of the Empire ##
 	
 	add_accessory_modifiers = {
 		gene = headgear
@@ -923,327 +983,12 @@
 			has_reward_item = newsletter_crown
 		}
 	}
-
-	#AGOT Added
-	add_accessory_modifiers = {
-		gene = headgear
-		template = aegonI_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = aenysI_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = jaehaerysI_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = aegonIII_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = aegonIV_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = maekarI_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = robertI_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = joffreyI_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = renly_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = stannis_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = daenerys_crown
-	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = visenya_circlet
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = rhaella_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = beyondthewall_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cannibal_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = crown_of_winter
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = bolton_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = riverlands_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iron_isles_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = driftwood_crown_1
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = iron_stag_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = westerlands_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = westerlands2_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = stormlands_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = floreal_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = dorne_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = valyrian_crown1
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = westerlands_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = falcon_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = reach_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tully_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = umber_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = dustin_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = manderly_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = royce_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = blackwood_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = frey_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cargyll_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = redwyne_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tarly_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = hightower_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = florent_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = greyjoy_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = bolton_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = tarth_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = dayne_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = reed_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = harlaw_crown
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Vale_Helm_3
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Vale_Helm_4
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Riverlands_Helm_3
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Reach_Helm_3
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Valyrian_Helm_4
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Kingsguard_Helm_1
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Valyrian_Helm_3
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Stormlands_Helm_4
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Stormlands_Helm_3
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = Dorne_Helm_3
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = stepstones_pirate_hats
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = highsepton_1
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = agot_crowns
-	}
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = agot_qolab
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = crown_of_hugor
-	}
 ## LIDA added
 	add_accessory_modifiers = {
 		gene = headgear
 
 		template = sub_collar
 	}
+
 
 }
